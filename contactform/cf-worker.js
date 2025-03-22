@@ -1,8 +1,8 @@
 // Bot API Key
-const BOT_TOKEN = "123456789:abcdefghijklmnopqrstuvwxyz";
+const BOT_TOKEN = "7455099504:AAFQowlal6Hnm04JcjKXBlPFAPhEQOGcGM0";
 
 // Your Telegram USER ID
-const USERID = "9876543210";
+const USERID = "1174140859";
 
 addEventListener("fetch", (event) => {
   event.respondWith(handleRequest(event.request));
@@ -19,7 +19,7 @@ async function handleRequest(request) {
     });
   } else if (new URL(request.url).pathname == "/" && !request.body) {
     return Response.redirect(
-      "https://LinuxGuy312.github.io",
+      "https://wasdev.github.io",
       301
     );
   } else {
